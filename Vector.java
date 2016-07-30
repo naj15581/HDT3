@@ -1,21 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+import java.lang.reflect.Array;  
 
 /**
- *
- * @author AntonioJose
+ * Clase para crear un vector génerico que almacenará los datos del .txt tando desordenados como oredenados. 
+ * @author German García.
+ * @author Luis Nájera.
+ * @author Antonio Ixtecoc.
+ * @author Esteban Avalos.
+ * version 30.07.16
+ * @param <E> 
  */
-import java.lang.reflect.Array;
-   
 public class Vector<E> {  
     final E[] a;
 
     public Vector(Class<E[]> clazz, int length) {  
         a = clazz.cast(Array.newInstance(clazz.getComponentType(), length));  
     }  
-    
     
 }
