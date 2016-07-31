@@ -68,4 +68,4 @@ public class Quicksort {
         
 }
 
-/* Se utilizo como referencia el codigo de la siguientes paginas: https://www.youtube.com/watch?v=YYd4XB17bIc, https://gist.github.com/arunma/3359319, http://www.learntosolveit.com/java/GenericQuicksortComparable.html.
+/* Se utilizo como referencia el codigo de las siguientes paginas: https://www.youtube.com/watch?v=YYd4XB17bIc, https://gist.github.com/arunma/3359319, http://www.learntosolveit.com/java/GenericQuicksortComparable.html.*/
