@@ -1,3 +1,11 @@
+/**
+ * Clase que realiza el algoritmo Buble Sort
+ * @author German García.
+ * @author Luis Nájera.
+ * @author Antonio Ixtecoc.
+ * @author Esteban Avalos.
+ * version 30.07.16 
+ */
 
 
 public class BubbleSort {
