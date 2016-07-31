@@ -1,4 +1,10 @@
 /*
+	Autores:
+	Luis Najera
+	Antonio Ixtecoc
+	German 	Garcias
+	Esteban Avalos
+
     Esta clase es el metodo de ordenamiento de mergesort, esta forma de ordenemiento funciona creando sublistas de la orginal
     , cada una las va ordenando y derivando nuevas sub-listas, las cuales tambien se ordena.
 */
@@ -63,3 +69,5 @@ public class mergeSort{
   }
   
 }
+/* Se utilizo como referencia codigo obtenido  de  la siguiente pagina:http://www.java-tips.org/java-se-tips-100019/24-java-lang/1895-merge-sort-implementation-in-java.html
+*/
