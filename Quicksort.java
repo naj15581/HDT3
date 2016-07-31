@@ -1,8 +1,12 @@
 /**
- * Clase que implementa el método de ordenación QUICKSORT.
- * @author Luis Nájera
- * @version 30.07.16
+ * Clase que realiza el algoritmo Quick Sort
+ * @author German García.
+ * @author Luis Nájera.
+ * @author Antonio Ixtecoc.
+ * @author Esteban Avalos.
+ * version 30.07.16 
  */
+ 
 public class Quicksort {
 
 	public Integer[] quickSort (Comparable arreglo[], int izq, int der){
