@@ -1,3 +1,13 @@
+/**
+ * Clase que realiza el codigo le lectura del archivo .txt
+ * @author German García.
+ * @author Luis Nájera.
+ * @author Antonio Ixtecoc.
+ * @author Esteban Avalos.
+ * version 30.07.16 
+ */
+
+
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
