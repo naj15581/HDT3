@@ -33,8 +33,6 @@ public class BubbleSort {
      /*Retorno del arreglo ya ordenado*/
      return (Integer[]) arreglo;
 }   
-        
-                
-
    
 }
+/*Se tomo como referencia un ejemplo en http://stackoverflow.com/questions/11644858/bubblesort-implementation*/
