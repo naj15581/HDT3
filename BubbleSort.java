@@ -13,24 +13,24 @@ public class BubbleSort {
     public Integer[] bubblesort (Comparable[] arreglo){
        
      int i;
-     boolean esmayor = true;   // set flag to true to begin first pass
-     int numerotemp;   //holding variable
-
+     boolean esmayor = true;   /*Variable que verifica cuando un cambio se realiza*/
+     int numerotemp;   /*numero utilizado para hacer el cambio, o swapp*/
+    /*Ciclo que ordena los numeros de la Lista*/
      while ( esmayor )
      {
-            esmayor= false;    //set flag to false awaiting a possible swap
+            esmayor= false;    /*Valor inicial de falso para poder indicar los cambios*/
             for( i=0;  i < arreglo.length -1;  i++ )
             {
-                   if (arreglo[ i ].compareTo(arreglo[i+1])> 0)   // change to > for ascending sort
+                   if (arreglo[ i ].compareTo(arreglo[i+1])> 0)   /*Condicion para que los elementos vayan de menor a mayor*/
                    {
-                       numerotemp = (int) arreglo[ i ];                //swap elements
+                       numerotemp = (int) arreglo[ i ];                /*Intercambio de elementos si uno es menor a otro*/
                        arreglo[ i] = arreglo[ i+1 ];
                        arreglo[ i+1 ] = numerotemp;
-                       esmayor= true;              //shows a swap occurred
+                       esmayor= true;              /*Cambia el valor para poder hacer el siguiente cambio de numero*/
                    } 
             } 
       } 
-     
+     /*Retorno del arreglo ya ordenado*/
      return (Integer[]) arreglo;
 }   
         
